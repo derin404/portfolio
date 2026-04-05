@@ -7,13 +7,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0a0a0f;
-      --surface: #111118;
-      --border: #1e1e2e;
-     --accent: #5b9fff;
-       --accent2: #4ecff0;
-      --text: #e8e8f0;
-      --muted: #6b6b80;
+      --bg: #f5f6fa;
+      --surface: #ffffff;
+      --border: #e0e2ef;
+      --accent: #3b82f6;
+      --accent2: #06b6d4;
+      --text: #1e1e2e;
+      --muted: #7c7c96;
       --heading: 'Syne', sans-serif;
       --body: 'DM Sans', sans-serif;
     }
@@ -50,7 +50,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 20px 60px;
-      background: rgba(10,10,15,0.85);
+      background: rgba(245,246,250,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
     }
@@ -84,12 +84,13 @@
       padding: 120px 60px 80px;
       position: relative;
       overflow: hidden;
+      background: linear-gradient(160deg, #eef4ff 0%, #f5f6fa 60%);
     }
 
     .hero-glow {
       position: absolute;
       width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(0, 150, 255, 0.25) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.10) 0%, transparent 70%);
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
       pointer-events: none;
@@ -120,7 +121,7 @@
       font-weight: 800;
       line-height: 1.0;
       letter-spacing: -0.03em;
-      color: #fff;
+      color: #111827;
       animation: fadeUp 0.9s 0.2s ease both;
     }
 
@@ -144,7 +145,7 @@
       margin: 0 auto 28px;
       display: block;
       animation: fadeUp 0.9s 0.05s ease both;
-      box-shadow: 0 0 10px rgba(0, 150, 255, 0.25);
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.20);
     }
 
     .hero-cta {
@@ -170,13 +171,13 @@
     }
     .btn-primary {
       background: var(--accent);
-      color: #0a0a0f;
+      color: #ffffff;
       border: none;
     }
     .btn-primary:hover {
-      background: #a8ffaa;
+      background: #2563eb;
       transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(0, 150, 255, 0.25);
+      box-shadow: 0 8px 30px rgba(59, 130, 246, 0.30);
     }
     .btn-ghost {
       background: transparent;
@@ -240,9 +241,7 @@
       font-family: var(--heading);
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.02em;
-      margin-bottom: 48px;
+      color: #111827;
       line-height: 1.1;
     }
 
@@ -301,13 +300,13 @@
       transition: all 0.25s;
     }
     .skill-chip:hover {
-      border-color: rgba(127,255,110,0.4);
+      border-color: rgba(59,130,246,0.45);
       transform: translateY(-3px);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+      box-shadow: 0 12px 30px rgba(59,130,246,0.12);
     }
     .skill-icon {
       width: 36px; height: 36px;
-      background: rgba(127,255,110,0.08);
+      background: rgba(59,130,246,0.08);
       border-radius: 8px;
       display: grid;
       place-items: center;
@@ -342,9 +341,9 @@
       background: linear-gradient(90deg, var(--accent), var(--accent2));
     }
     .project-card:hover {
-      border-color: rgba(127,255,110,0.3);
+      border-color: rgba(59,130,246,0.35);
       transform: translateY(-4px);
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 60px rgba(59,130,246,0.12);
     }
 
     .project-tag {
@@ -358,9 +357,7 @@
       font-family: var(--heading);
       font-size: 1.6rem;
       font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.02em;
-      margin-bottom: 10px;
+      color: #111827;
     }
     .project-card p {
       color: var(--muted);
@@ -423,7 +420,7 @@
     .contact-email-box h3 {
       font-family: var(--heading);
       font-size: 1.1rem;
-      color: #fff;
+      color: #111827;
       margin-bottom: 8px;
     }
     .contact-email-box p {
@@ -610,17 +607,6 @@
       <div class="contact-email-box">
         <h3>Send me an email</h3>
         <p>I'm always happy to hear from you.</p>
-        <div class="email-display">derinsaju07@email.com</div>
+        <div class="email-display"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="046061766d6a77656e713433446169656d682a676b69">[email&#160;protected]</a></div>
         <br>
-        <a href="mailto:derinsaju07@email.com" class="btn btn-primary" style="display:inline-block;margin-top:4px">Send Email</a>
-      </div>
-    </div>
-  </div>
-
-  <hr class="divider">
-  <footer>
-    <p>Designed &amp; built by Derin · 2026</p>
-  </footer>
-
-</body>
-</html>
+        <a href="/cdn-cgi/l/email-protection#157170677c7b66747f602522557078747c793b767a78" class="btn btn-primary" style="display:inline-block;margin-to
